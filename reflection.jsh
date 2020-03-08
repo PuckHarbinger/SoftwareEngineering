@@ -53,10 +53,10 @@ String str = "Hello,World!";
 System.out.println("length of string =  " + str.length());
 
 //Prints the declared methods of java.lang.String that may throw an exception;
-
+System.out.println(1/0);
 
 //Prints the declared methods of java.lang.String that may throw a NoSuchMethodException;
-
+throw new RunTimeException;
 
 //Prints the declared methods of java.lang.String that take a string as the first parameter;
 
